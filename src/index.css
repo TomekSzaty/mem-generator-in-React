@@ -23,3 +23,28 @@ header {
   max-width: calc(80vw - 15px);
   margin: 1em auto;
 }
+
+main {
+  padding: 36px;
+}
+
+.form{
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form--button {
+  grid-column: 1 / -1;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: whitesmoke;
+  border-radius: 5px;
+  border: solid 1px #D5D4D8;
+  cursor: pointer;
+}
+
+.form--input {
+  border-radius: 5px;
+  border: solid 1px #D5D4D8;
+  text-indent: 5px;
+}
